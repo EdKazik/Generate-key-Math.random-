@@ -7,5 +7,5 @@ function generateKey(length, elem) {
     return randomString;
 }
 const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
-const key = generateKey(4, characters);
+const key = generateKey(16, characters);
 console.log(key);
